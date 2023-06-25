@@ -6,6 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   color: #ededed;
 }
@@ -269,4 +272,24 @@ body{
   100%{
     pointer-events: auto;
   }
+}
+#section2{
+  height: 100vh;
+  background: #164B60;
+  width: 100%;
+}
+#section3{
+  height: 100vh;
+  background: #1B6B93;
+  width: 100%;
+}
+#section4{
+  height: 100vh;
+  background: #2E8A99;
+  width: 100%;
+}
+#section5{
+  height: 100vh;
+  background: #84A7A1;
+  width: 100%;
 }
