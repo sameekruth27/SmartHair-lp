@@ -277,18 +277,136 @@ body{
   background: #164B60;
   width: 100%;
 }
+#section2 about{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+}
 #section3{
   height: 100vh;
   background: #1B6B93;
   width: 100%;
+}
+#section3 bodyp{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section3 header3{
+  color: #081b29;
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section3 .cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#section3 .card{
+  background-color: #fff;
+  color: hsl(233,135,49%);
+  border-radius: 0.8rem;
+}
+#section3 .cards .card.active{
+  background: linear-gradient(135deg,rgba(165, 168, 240, 1.0)0%, rgba(105,111,221,1)100%);
+  color: #fff;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  transform: scale(1.1);
+  z-index: 1;
+}
+#section3 ul{
+  margin: 2.6rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#section3 ul li{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+#section3 ul li.price{
+  font-size: 2.5rem;
+  color: hsl(232, 13%, 33%);
+  padding-bottom: 2rem;
+}
+#section3 .shadow{
+  box-shadow: -5px 5px 15px 1px rgba(0,0,0,0.1);
+  color: black;
+  font-weight: 600;
+}
+#section3 .card.active .price{
+  color: #fff;
+}
+#section3 .btn{
+  margin-top: 1rem;
+  height: 2.6rem;
+  width: 13.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: linear-gradient(135deg,rgba(163, 168, 240, 1)0%, rgba(105,111,221,1)100%);
+  color: #fff;
+  outline: none;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+#section3 .btn:hover{
+  color: #000;
+}
+#section3 .active-btn{
+  background: #fff;
+  color: hsl(237, 63%, 64%);
+}
+#section3 .bottom-bar{
+  border-bottom: 2px solid hsl(240,8%,85%,0.583);
+}
+#section3 .card.active .bottom-bar{
+  border-bottom: 2px solid hsl(240,8%,85%,0.253);
+}
+#section3 .pack{
+  font-size: 1.1rem;
 }
 #section4{
   height: 100vh;
   background: #2E8A99;
   width: 100%;
 }
+#section4 faq{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+}
 #section5{
   height: 100vh;
   background: #84A7A1;
   width: 100%;
+}
+#section5 contact{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+}
+#section5 p{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  top: 85%;
 }
