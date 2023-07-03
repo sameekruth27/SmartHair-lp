@@ -278,7 +278,7 @@ body{
   width: 100%;
 }
 #section2 about{
-  position: relative;
+  position: absolute;
   width: 100%;
   text-align: center;
   top: 50%;
