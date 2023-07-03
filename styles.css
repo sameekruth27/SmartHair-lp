@@ -304,7 +304,7 @@ body{
   align-items: center;
 }
 #section3 .cards{
-  margin: 5rem 0;
+  padding-yop: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
