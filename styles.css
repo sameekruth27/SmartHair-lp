@@ -363,7 +363,7 @@ body{
   outline: none;
   border: 0;
   font-weight: bold;
-  cursor: pointer;
+  cursor: no-drop;
   transition: 0.5s ease;
 }
 #section3 .btn:hover{
@@ -372,6 +372,7 @@ body{
 #section3 .active-btn{
   background: #fff;
   color: hsl(237, 63%, 64%);
+  cursor: pointer;
 }
 #section3 .bottom-bar{
   border-bottom: 2px solid hsl(240,8%,85%,0.583);
