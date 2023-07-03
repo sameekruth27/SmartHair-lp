@@ -368,6 +368,8 @@ body{
 #section3 .active-btn{
   background: #fff;
   color: hsl(237, 63%, 64%);
+}
+#section3 .no{
   cursor: no-drop;
 }
 #section3 .bottom-bar{
