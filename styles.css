@@ -363,12 +363,12 @@ body{
   outline: none;
   border: 0;
   font-weight: bold;
-  cursor: no-drop;
+  cursor: pointer;
 }
 #section3 .active-btn{
   background: #fff;
   color: hsl(237, 63%, 64%);
-  cursor: pointer;
+  cursor: no-drop;
 }
 #section3 .bottom-bar{
   border-bottom: 2px solid hsl(240,8%,85%,0.583);
