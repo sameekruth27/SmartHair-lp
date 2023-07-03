@@ -364,10 +364,6 @@ body{
   border: 0;
   font-weight: bold;
   cursor: no-drop;
-  transition: 0.5s ease;
-}
-#section3 .btn:hover{
-  color: #000;
 }
 #section3 .active-btn{
   background: #fff;
